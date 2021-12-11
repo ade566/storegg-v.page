@@ -40,7 +40,9 @@ export default function Header() {
                 <a className="nav-link" href="/#">Global Rank</a>
               </li>
               <li className="nav-item my-auto">
-                <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="./src/sign-in.html" role="button">Sign In</a>
+                <Link href="/sign-in">
+                  <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="/#" role="button">Sign In</a>
+                </Link>
               </li>
             </ul>
           </div>
