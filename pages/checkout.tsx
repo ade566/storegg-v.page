@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Checkout() {
   return (
     <section className="checkout mx-auto pt-md-100 pb-md-145 pt-30 pb-30">
@@ -92,7 +94,9 @@ export default function Checkout() {
           <span className="checkmark"> </span>
         </label>
         <div className="d-md-block d-flex flex-column w-100 pt-50">
-          <a className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg" href="/#" role="button">Confirm Payment</a>
+          <Link href="/checkout-completed">
+            <a className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg" href="/#" role="button">Confirm Payment</a>
+          </Link>
         </div>
       </div>
     </section>
