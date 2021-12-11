@@ -26,6 +26,9 @@
         "react/react-in-jsx-scope": "off",
         "linebreak-style": "off",
         "react/no-unknown-property": "off",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "jsx-a11y/label-has-associated-control": "off"
     }
 }
