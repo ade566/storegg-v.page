@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function SignIn() {
   return (
@@ -37,7 +38,9 @@ export default function SignIn() {
                 </div>
                 <div className="button-group d-flex flex-column mx-auto pt-50">
                   <a className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">Continue to Sign In</a>
-                  <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">Sign Up</a>
+                  <Link href="/sign-up">
+                    <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">Sign Up</a>
+                  </Link>
                 </div>
               </div>
             </form>
