@@ -37,7 +37,9 @@ export default function SignIn() {
                   <input type="password" className="form-control rounded-pill text-lg" id="password" name="password" aria-describedby="password" placeholder="Your password" />
                 </div>
                 <div className="button-group d-flex flex-column mx-auto pt-50">
-                  <a className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">Continue to Sign In</a>
+                  <Link href="/">
+                    <a className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">Continue to Sign In</a>
+                  </Link>
                   <Link href="/sign-up">
                     <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">Sign Up</a>
                   </Link>
