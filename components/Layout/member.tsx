@@ -119,7 +119,9 @@ export default function MemberLayout(props: LayoutProps) {
                   </defs>
                 </svg>
                 <p className="item-title m-0">
-                  <a href="../member/edit-profile.html" className="text-lg text-decoration-none">Settings</a>
+                  <Link href="/member/edit-profile">
+                    <a href="/#" className="text-lg text-decoration-none">Settings</a>
+                  </Link>
                 </p>
               </div>
               {/* Log Out */}
