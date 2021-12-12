@@ -1,12 +1,21 @@
+/* eslint-disable no-unneeded-ternary */
 import { ReactNode } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 interface LayoutProps {
   children: ReactNode;
   pageTitle: string;
+  classSection: string;
 }
 export default function MemberLayout(props: LayoutProps) {
-  const { children, pageTitle } = props;
+  const { children, pageTitle, classSection } = props;
+  const section = `${classSection} overflow-auto`;
+  // const menuActive = {
+  //   overview: (classSection === 'overview') ? 'active' : '',
+  //   transactions: (classSection === 'transactions') ? 'active' : '',
+  // };
+  // active
   return (
     <>
       <Head>
@@ -15,7 +24,7 @@ export default function MemberLayout(props: LayoutProps) {
         </title>
         <meta name="description" content="Website Top Up Voucher Game" />
       </Head>
-      <section className="overview overflow-auto">
+      <section className={section}>
         <section className="sidebar">
           <div className="content pt-50 pb-30 ps-30">
             {/* Profile */}
@@ -26,7 +35,8 @@ export default function MemberLayout(props: LayoutProps) {
             </div>
             {/* Menu */}
             <div className="menus">
-              <div className="item active mb-30">
+              {/* Overview */}
+              <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M21.9033 14.7502H14.9033V21.7502H21.9033V14.7502Z" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M10.9033 14.7502H3.90332V21.7502H10.9033V14.7502Z" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -34,9 +44,12 @@ export default function MemberLayout(props: LayoutProps) {
                   <path d="M10.9033 3.75024H3.90332V10.7502H10.9033V3.75024Z" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <p className="item-title m-0">
-                  <a href="/#" className="text-lg text-decoration-none">Overview</a>
+                  <Link href="/member">
+                    <a href="/#" className="text-lg text-decoration-none">Overview</a>
+                  </Link>
                 </p>
               </div>
+              {/* Transactions */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6.90332 2.41406L3.90332 6.41406V20.4141C3.90332 20.9445 4.11403 21.4532 4.48911 21.8283C4.86418 22.2033 5.37289 22.4141 5.90332 22.4141H19.9033C20.4338 22.4141 20.9425 22.2033 21.3175 21.8283C21.6926 21.4532 21.9033 20.9445 21.9033 20.4141V6.41406L18.9033 2.41406H6.90332Z" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -44,9 +57,12 @@ export default function MemberLayout(props: LayoutProps) {
                   <path d="M3.90332 6.41406H21.9033" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <p className="item-title m-0">
-                  <a href="../member/transactions.html" className="text-lg text-decoration-none">Transactions</a>
+                  <Link href="/member/transactions">
+                    <a href="/#" className="text-lg text-decoration-none">Transactions</a>
+                  </Link>
                 </p>
               </div>
+              {/* Messages */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M21.9033 11.9141C21.9068 13.234 21.5984 14.536 21.0033 15.7141C20.2978 17.1258 19.2131 18.3133 17.8708 19.1434C16.5285 19.9735 14.9816 20.4135 13.4033 20.4141C12.0835 20.4175 10.7814 20.1092 9.60332 19.5141L3.90332 21.4141L5.80332 15.7141C5.20825 14.536 4.89988 13.234 4.90332 11.9141C4.90393 10.3358 5.34393 8.78894 6.17404 7.44664C7.00415 6.10434 8.19157 5.01966 9.60332 4.31409C10.7814 3.71902 12.0835 3.41065 13.4033 3.41409H13.9033C15.9877 3.52908 17.9564 4.40885 19.4325 5.88495C20.9086 7.36105 21.7883 9.32974 21.9033 11.4141V11.9141Z" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -55,6 +71,7 @@ export default function MemberLayout(props: LayoutProps) {
                   <a href="/#" className="text-lg text-decoration-none">Messages</a>
                 </p>
               </div>
+              {/* Card */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
@@ -71,6 +88,7 @@ export default function MemberLayout(props: LayoutProps) {
                   <a href="/#" className="text-lg text-decoration-none">Card</a>
                 </p>
               </div>
+              {/* Rewards */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
@@ -87,6 +105,7 @@ export default function MemberLayout(props: LayoutProps) {
                   <a href="/#" className="text-lg text-decoration-none">Rewards</a>
                 </p>
               </div>
+              {/* Settings */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
@@ -103,6 +122,7 @@ export default function MemberLayout(props: LayoutProps) {
                   <a href="../member/edit-profile.html" className="text-lg text-decoration-none">Settings</a>
                 </p>
               </div>
+              {/* Log Out */}
               <div className="item mb-30">
                 <svg className="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M19.2634 7.05396C20.5218 8.31274 21.3787 9.9164 21.7257 11.6621C22.0728 13.4079 21.8944 15.2173 21.2131 16.8617C20.5318 18.5061 19.3782 19.9115 17.8983 20.9003C16.4183 21.8891 14.6783 22.4169 12.8984 22.4169C11.1185 22.4169 9.37859 21.8891 7.89861 20.9003C6.41864 19.9115 5.26508 18.5061 4.58381 16.8617C3.90253 15.2173 3.72413 13.4079 4.07116 11.6621C4.41819 9.9164 5.27506 8.31274 6.53344 7.05396" stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

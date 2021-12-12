@@ -2,7 +2,7 @@ import Layout from '../../components/Layout/member'
 
 export default function member() {
   return (
-    <Layout pageTitle="Member Store GG">
+    <Layout pageTitle="Member Store GG" classSection="overview">
       <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">Overview</h2>
