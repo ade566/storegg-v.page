@@ -55,7 +55,7 @@ export default function Detail() {
                           </p>
                           <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -71,7 +71,7 @@ export default function Detail() {
                           </p>
                           <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -87,7 +87,7 @@ export default function Detail() {
                           </p>
                           <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -103,7 +103,7 @@ export default function Detail() {
                           </p>
                           <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" troke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" troke-width="2" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -119,7 +119,7 @@ export default function Detail() {
                           </p>
                           <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -139,7 +139,7 @@ export default function Detail() {
                             <p className="text-3xl color-palette-1 fw-medium m-0">Transfer</p>
                             <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                              <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           </div>
                           <p className="text-lg color-palette-1 m-0">Worldwide Available</p>
@@ -152,7 +152,7 @@ export default function Detail() {
                             <p className="text-3xl color-palette-1 fw-medium m-0">VISA</p>
                             <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                              <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           </div>
                           <p className="text-lg color-palette-1 m-0">Credit Card</p>
