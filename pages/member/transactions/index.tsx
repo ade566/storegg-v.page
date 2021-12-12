@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../../../components/Layout/member'
 
 export default function transactions() {
@@ -55,7 +56,9 @@ export default function transactions() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html" className="btn btn-status rounded-pill text-sm">Details</a>
+                      <Link href="/member/transactions/detail">
+                        <a href="/#" className="btn btn-status rounded-pill text-sm">Details</a>
+                      </Link>
                     </td>
                   </tr>
                   <tr data-category="success" className="align-middle">
@@ -79,7 +82,9 @@ export default function transactions() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html" className="btn btn-status rounded-pill text-sm">Details</a>
+                      <Link href="/member/transactions/detail">
+                        <a href="/#" className="btn btn-status rounded-pill text-sm">Details</a>
+                      </Link>
                     </td>
                   </tr>
                   <tr data-category="failed" className="align-middle">
@@ -103,7 +108,9 @@ export default function transactions() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html" className="btn btn-status rounded-pill text-sm">Details</a>
+                      <Link href="/member/transactions/detail">
+                        <a href="/#" className="btn btn-status rounded-pill text-sm">Details</a>
+                      </Link>
                     </td>
                   </tr>
                   <tr data-category="pending" className="align-middle">
@@ -127,7 +134,9 @@ export default function transactions() {
                       </div>
                     </td>
                     <td>
-                      <a href="../member/transactions-detail.html" className="btn btn-status rounded-pill text-sm">Details</a>
+                      <Link href="/member/transactions/detail">
+                        <a href="/#" className="btn btn-status rounded-pill text-sm">Details</a>
+                      </Link>
                     </td>
                   </tr>
                 </tbody>
