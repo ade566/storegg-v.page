@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import Head from 'next/head';
-import Header from '../header';
+import Header from '../navbar';
 import Footer from '../footer';
 
 interface LayoutProps {
