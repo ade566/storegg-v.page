@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Auth from './auth';
 import Menu from './menu';
 
 export default function Navbar() {
@@ -20,11 +20,7 @@ export default function Navbar() {
               <Menu title="Rewards" href="/rewards" />
               <Menu title="Discover" href="/discover" />
               <Menu title="Global Rank" href="/global-rank" />
-              <li className="nav-item my-auto">
-                <Link href="/sign-in">
-                  <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="/#" role="button">Sign In</a>
-                </Link>
-              </li>
+              <Auth isLogin />
             </ul>
           </div>
         </div>
