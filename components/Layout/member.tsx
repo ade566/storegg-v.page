@@ -20,7 +20,7 @@ export default function MemberLayout(props: LayoutProps) {
         <meta name="description" content="Website Top Up Voucher Game" />
       </Head>
       <section className={section}>
-        <SideBar />
+        <SideBar activeMenu={classSection} />
 
         {children}
 

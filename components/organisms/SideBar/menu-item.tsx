@@ -11,7 +11,7 @@ interface MenuItemProps {
 
 export default function MenuItem(props: Partial<MenuItemProps>) {
   const {
-    svg, href = false, title, active = false,
+    svg, href = '/', title, active = false,
   } = props;
 
   const classExtend = cx({
