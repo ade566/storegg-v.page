@@ -18,7 +18,12 @@ export default function SideBar(props: SideBarProps) {
           {/* overview */}
           <MenuItem svg="overview" active={activeMenu === 'overview'} title="Overview" />
           {/* transactions */}
-          <MenuItem svg="transaction" active={activeMenu === 'transactions'} href="/transactions" title="Transactions" />
+          <MenuItem
+            svg="transaction"
+            active={activeMenu === 'transactions' || activeMenu === 'transactions-detail'}
+            href="/transactions"
+            title="Transactions"
+          />
           {/* Messages */}
           <MenuItem svg="messages" active={activeMenu === 'messages'} title="Messages" />
           {/* Card */}
