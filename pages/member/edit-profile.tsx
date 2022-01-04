@@ -1,10 +1,8 @@
 import Image from 'next/image'
+import Input from '../../components/atoms/Input';
 import Layout from '../../components/Layout/member'
 
 export default function member() {
-  const labelClass = 'form-label text-lg fw-medium color-palette-1 mb-10';
-  const inputClass = 'form-control rounded-pill text-lg';
-
   return (
     <Layout pageTitle="Member Store GG" classSection="edit-profile">
       <main className="main-wrapper">
@@ -27,16 +25,13 @@ export default function member() {
                 </div>
               </div>
               <div className="pt-30">
-                <label htmlFor="name" className={labelClass}>Full Name</label>
-                <input type="text" className={inputClass} id="name" name="name" aria-describedby="name" placeholder="Enter your name" />
+                <Input label="Full Name" />
               </div>
               <div className="pt-30">
-                <label htmlFor="email" className={labelClass}>Email Address</label>
-                <input type="email" className={inputClass} id="email" name="email" aria-describedby="email" placeholder="Enter your email address" />
+                <Input label="Email Address" />
               </div>
               <div className="pt-30">
-                <label htmlFor="phone" className={labelClass}>Phone</label>
-                <input type="tel" className={inputClass} id="phone" name="phone" aria-describedby="phone" placeholder="Enter your phone number" />
+                <Input label="Phone" />
               </div>
               <div className="button-group d-flex flex-column pt-50">
                 <button type="submit" className="btn btn-save fw-medium text-lg text-white rounded-pill">Save My Profile</button>
