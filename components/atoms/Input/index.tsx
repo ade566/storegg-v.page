@@ -1,16 +1,12 @@
-interface InputProps {
-  label: String;
+export interface InputProps {
+  label: string;
 }
 
 export default function Input(props: InputProps) {
   const { label, ...nativeProps } = props;
-
   return (
     <>
-      <label
-        htmlFor="name"
-        className="form-label text-lg fw-medium color-palette-1 mb-10"
-      >
+      <label htmlFor="name" className="form-label text-lg fw-medium color-palette-1 mb-10">
         {label}
       </label>
       <input
@@ -23,5 +19,5 @@ export default function Input(props: InputProps) {
         {...nativeProps}
       />
     </>
-  )
+  );
 }
