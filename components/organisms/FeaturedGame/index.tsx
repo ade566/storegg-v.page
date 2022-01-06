@@ -10,11 +10,11 @@ export default function FeaturedGame() {
           Games This Year
         </h2>
         <div className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3  gap-4" data-aos="fade-up">
-          <GameItem title="Super Mechs" category="Mobile" href="super-mechs" thumbnail="Thumbnail-1" />
-          <GameItem title="Call of Duty: Modern" category="Mobile" href="call-of-duty-modern" thumbnail="Thumbnail-2" />
-          <GameItem title="Mobile Legends" category="Mobile" href="mobile-legends" thumbnail="Thumbnail-3" />
-          <GameItem title="Clash of Clans" category="Mobile" href="clash-of-clans" thumbnail="Thumbnail-4" />
-          <GameItem title="Valorant" category="Desktop" href="valorant" thumbnail="Thumbnail-5" />
+          <GameItem title="Super Mechs" category="Mobile" href="super-mechs" thumbnail="/img/Thumbnail-1.png" />
+          <GameItem title="Call of Duty: Modern" category="Mobile" href="call-of-duty-modern" thumbnail="/img/Thumbnail-2.png" />
+          <GameItem title="Mobile Legends" category="Mobile" href="mobile-legends" thumbnail="/img/Thumbnail-3.png" />
+          <GameItem title="Clash of Clans" category="Mobile" href="clash-of-clans" thumbnail="/img/Thumbnail-4.png" />
+          <GameItem title="Valorant" category="Desktop" href="valorant" thumbnail="/img/Thumbnail-5.png" />
         </div>
       </div>
     </section>
