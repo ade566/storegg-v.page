@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function illustrations() {
+export default function Illustrations() {
   return (
     <div className="col-lg-6 col-12 d-lg-block d-none">
       <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
@@ -15,11 +15,11 @@ export default function illustrations() {
               </div>
             </div>
             <div className="d-flex gap-2">
-              <Image src="/icon/star.svg" width={24} height={22} />
-              <Image src="/icon/star.svg" width={24} height={22} />
-              <Image src="/icon/star.svg" width={24} height={22} />
-              <Image src="/icon/star.svg" width={24} height={22} />
-              <Image src="/icon/star.svg" width={24} height={22} />
+              <Image src="/icon/star.svg" width={24} height={22} alt=" " />
+              <Image src="/icon/star.svg" width={24} height={22} alt=" " />
+              <Image src="/icon/star.svg" width={24} height={22} alt=" " />
+              <Image src="/icon/star.svg" width={24} height={22} alt=" " />
+              <Image src="/icon/star.svg" width={24} height={22} alt=" " />
             </div>
           </div>
           <div className="card right-card position-absolute border-0">

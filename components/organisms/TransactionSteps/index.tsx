@@ -1,6 +1,6 @@
 import StepItem from '../../molcules/StepItem';
 
-export default function index() {
+export default function TransactionSteps() {
   return (
     <section id="feature" className="feature pt-50 pb-50">
       <div className="container-fluid">

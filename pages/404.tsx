@@ -114,8 +114,8 @@ export default function NotFound() {
             </p>
           </div>
           <div className="button-group d-flex flex-column mx-auto">
-            <Link href="/">
-              <a className="btn btn-homepage fw-medium text-lg text-white rounded-pill" href="/#" role="button">Homepage</a>
+            <Link href="/" className="btn btn-homepage fw-medium text-lg text-white rounded-pill" role="button">
+              Homepage
             </Link>
           </div>
         </div>

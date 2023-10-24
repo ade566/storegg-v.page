@@ -1,4 +1,4 @@
-import Layout from '../../../components/Layout/member'
+import Layout from '../../../components/layout/member'
 import FilterTransactions from '../../../components/organisms/TransactionContents/filter'
 import TrRow from '../../../components/organisms/TransactionContents/tr-row'
 

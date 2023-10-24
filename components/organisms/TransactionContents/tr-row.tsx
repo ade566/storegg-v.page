@@ -52,8 +52,8 @@ export default function TrRow(props: TrRowProps) {
         </div>
       </td>
       <td>
-        <Link href="/member/transactions/detail">
-          <a href="/#" className="btn btn-status rounded-pill text-sm">Details</a>
+        <Link href="/member/transactions/detail" className="btn btn-status rounded-pill text-sm">
+          Details
         </Link>
       </td>
     </tr>

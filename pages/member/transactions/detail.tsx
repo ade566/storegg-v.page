@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Layout from '../../../components/Layout/member'
+import Layout from '../../../components/layout/member'
 import PaymentInformations from '../../../components/organisms/TransactionDetail/payment-informations'
 import PurchaseDetails from '../../../components/organisms/TransactionDetail/purchase-details'
 
@@ -16,7 +16,7 @@ export default function DetailTransactions() {
                   <div className="game-checkout d-flex flex-row align-items-center">
                     <div className="pe-4">
                       <div className="cropped">
-                        <Image src="/img/Thumbnail-3.png" width="200" height="130" className="img-fluid" />
+                        <Image src="/img/Thumbnail-3.png" width="200" height="130" className="img-fluid" alt="" />
                       </div>
                     </div>
                     <div>

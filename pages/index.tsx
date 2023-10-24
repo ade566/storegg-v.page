@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import MainBanner from '../components/organisms/MainBanner';
 import TransactionSteps from '../components/organisms/TransactionSteps';
 import FeaturedGame from '../components/organisms/FeaturedGame';

@@ -15,21 +15,19 @@ export default function SignIn() {
             <form action="">
               <div className="container mx-auto">
                 <div className="pb-50">
-                  <Link href="/">
-                    <a className="navbar-brand" href="/#">
-                      <Image src="/icon/logo.svg" width={60} height={60} />
-                    </a>
+                  <Link href="/" className="navbar-brand">
+                    <Image src="/icon/logo.svg" width={60} height={60} alt="" />
                   </Link>
                 </div>
                 <h2 className="text-4xl fw-bold color-palette-1 mb-10">Sign In</h2>
                 <p className="text-lg color-palette-1 m-0">Masuk untuk melakukan proses top up</p>
                 <SignInForm />
                 <div className="button-group d-flex flex-column mx-auto pt-50">
-                  <Link href="/">
-                    <a className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">Continue to Sign In</a>
+                  <Link href="/" className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16" role="button">
+                    Continue to Sign In
                   </Link>
-                  <Link href="/sign-up">
-                    <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">Sign Up</a>
+                  <Link href="/sign-up" className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill" role="button">
+                    Sign Up
                   </Link>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout/member'
+import Layout from '../../components/layout/member'
 import Category from '../../components/organisms/OverviewContent/category'
 import TrRow from '../../components/organisms/OverviewContent/tr-row'
 

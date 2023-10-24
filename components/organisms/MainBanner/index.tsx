@@ -1,6 +1,6 @@
 import Illustrations from './illustrations';
 
-export default function index() {
+export default function MainBanner() {
   return (
     <section className="header pt-lg-60 pb-50">
       <div className="container-xxl container-fluid">

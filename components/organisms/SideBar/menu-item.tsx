@@ -23,11 +23,11 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
   return (
     <div className={classExtend}>
       <div className="icon me-3">
-        <Image src={`/icon/ic-menu-${svg}.svg`} width={25} height={25} />
+        <Image src={`/icon/ic-menu-${svg}.svg`} width={25} height={25} alt="" />
       </div>
       <p className="item-title m-0">
-        <Link href={`/member${href}`}>
-          <a className="text-lg text-decoration-none">{title}</a>
+        <Link href={`/member${href}`} className="text-lg text-decoration-none">
+          {title}
         </Link>
       </p>
     </div>

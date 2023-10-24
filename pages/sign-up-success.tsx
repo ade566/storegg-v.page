@@ -78,8 +78,8 @@ export default function SignUpSuccess() {
             </p>
           </div>
           <div className="button-group d-flex flex-column mx-auto">
-            <Link href="/">
-              <a className="btn btn-top-up fw-medium text-lg text-white rounded-pill" href="../index.html" role="button">TopUp</a>
+            <Link href="/" className="btn btn-top-up fw-medium text-lg text-white rounded-pill" role="button">
+              TopUp
             </Link>
           </div>
         </div>

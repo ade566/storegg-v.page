@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+import Layout from '../../components/layout';
 import TopUpForm from '../../components/organisms/TopUpForm';
 import TopUpItem from '../../components/organisms/TopUpItem';
 

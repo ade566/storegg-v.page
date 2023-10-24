@@ -9,7 +9,7 @@ export default function Checkout() {
       <div className="container-fluid">
         <div className="logo text-md-center text-start pb-50">
           <a className="" href="/" target="_blank">
-            <Image src="/icon/logo.svg" width={60} height={60} />
+            <Image src="/icon/logo.svg" width={60} height={60} alt="" />
           </a>
         </div>
         <div className="title-text pt-md-50 pt-0">
@@ -25,8 +25,8 @@ export default function Checkout() {
           <span className="checkmark"> </span>
         </label>
         <div className="d-md-block d-flex flex-column w-100 pt-50">
-          <Link href="/checkout-completed">
-            <a className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg" href="/#" role="button">Confirm Payment</a>
+          <Link href="/checkout-completed" className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg" role="button">
+            Confirm Payment
           </Link>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Input from '../../components/atoms/Input';
-import Layout from '../../components/Layout/member'
+import Layout from '../../components/layout/member'
 
 export default function member() {
   return (
@@ -12,14 +12,14 @@ export default function member() {
             <form action="">
               <div className="photo d-flex">
                 <div className="position-relative me-20">
-                  <Image src="/img/avatar-1.png" width={90} height={90} className="avatar img-fluid" />
+                  <Image src="/img/avatar-1.png" width={90} height={90} className="avatar img-fluid" alt="" />
                   <div className="avatar-overlay position-absolute top-0 d-flex justify-content-center align-items-center">
                     <img src="/icon/trace.svg" alt="" />
                   </div>
                 </div>
                 <div className="image-upload">
                   <label htmlFor="avatar">
-                    <Image src="/icon/upload-foto.svg" width={90} height={90} />
+                    <Image src="/icon/upload-foto.svg" width={90} height={90} alt="" />
                   </label>
                   <input id="avatar" type="file" name="avatar" accept="image/png, image/jpeg" />
                 </div>
