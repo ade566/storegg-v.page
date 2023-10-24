@@ -14,7 +14,7 @@ export default function GameItem(props: GameItemProps) {
   } = props;
   return (
     <div className="featured-game-card position-relative">
-      <Link href={`/games/${href}`}>
+      <Link href={`/games/${href}`} passHref>
         <div className="blur-sharp">
           <Image className="thumbnail" src={thumbnail} width="205" height="270" alt="" />
         </div>

@@ -1,9 +1,11 @@
+import Image from 'next/image';
+
 export default function CheckoutItem() {
   return (
     <div className="game-checkout d-flex flex-row align-items-center pt-md-50 pb-md-50 pt-30 pb-30">
       <div className="pe-4">
         <div className="cropped">
-          <img src="/img/Thumbnail-3.png" className="img-fluid" alt="" />
+          <Image src="/img/Thumbnail-3.png" width={200} height={271} className="img-fluid" alt="" />
         </div>
       </div>
       <div>

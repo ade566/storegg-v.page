@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Layout from '../components/layout';
 
 export default function CheckoutCompleted() {
@@ -88,8 +89,8 @@ export default function CheckoutCompleted() {
             </p>
           </div>
           <div className="button-group d-flex flex-column mx-auto">
-            <a className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">My Dashboard</a>
-            <a className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">WhatsApp ke Admin</a>
+            <Link className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16" href="/#" role="button">My Dashboard</Link>
+            <Link className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill" href="/#" role="button">WhatsApp ke Admin</Link>
           </div>
         </div>
       </section>

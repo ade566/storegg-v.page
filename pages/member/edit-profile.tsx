@@ -14,7 +14,7 @@ export default function member() {
                 <div className="position-relative me-20">
                   <Image src="/img/avatar-1.png" width={90} height={90} className="avatar img-fluid" alt="" />
                   <div className="avatar-overlay position-absolute top-0 d-flex justify-content-center align-items-center">
-                    <img src="/icon/trace.svg" alt="" />
+                    <Image src="/icon/trace.svg" alt="" width={30} height={30} />
                   </div>
                 </div>
                 <div className="image-upload">

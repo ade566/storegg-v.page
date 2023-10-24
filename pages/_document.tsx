@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-script-in-document */
 import {
   Html, Head, Main, NextScript,
 } from 'next/document'

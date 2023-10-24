@@ -13,7 +13,7 @@ export default function SignUp() {
         <div className="container mx-auto">
           <form action="">
             <div className="pb-50">
-              <Link href="/" className="navbar-brand">
+              <Link href="/" className="navbar-brand" passHref>
                 <Image src="/icon/logo.svg" width={60} height={60} alt="" />
               </Link>
             </div>

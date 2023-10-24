@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function GetStarted() {
   return (
     <div className="sidebar-footer pt-73 pe-30">
@@ -23,7 +25,7 @@ export default function GetStarted() {
             Be The Winner
           </p>
         </div>
-        <a className="btn btn-get-started w-100 fw-medium text-xs text-center text-white rounded-pill" href="/#" role="button">Get Started</a>
+        <Link className="btn btn-get-started w-100 fw-medium text-xs text-center text-white rounded-pill" href="/#" role="button">Get Started</Link>
       </div>
     </div>
   )

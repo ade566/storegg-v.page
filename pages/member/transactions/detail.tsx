@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import Image from 'next/image'
+
 import Layout from '../../../components/layout/member'
 import PaymentInformations from '../../../components/organisms/TransactionDetail/payment-informations'
 import PurchaseDetails from '../../../components/organisms/TransactionDetail/purchase-details'
@@ -36,7 +38,7 @@ export default function DetailTransactions() {
                 <PurchaseDetails />
                 <PaymentInformations />
                 <div className="d-md-block d-flex flex-column w-100">
-                  <a className="btn btn-whatsapp rounded-pill fw-medium text-white border-0 text-lg" href="/#" role="button">WhatsApp ke Admin</a>
+                  <Link className="btn btn-whatsapp rounded-pill fw-medium text-white border-0 text-lg" href="/#" role="button">WhatsApp ke Admin</Link>
                 </div>
               </section>
             </div>

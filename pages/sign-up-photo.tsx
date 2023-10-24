@@ -39,7 +39,7 @@ export default function SignUpPhoto() {
                 <Link href="/sign-up-success" className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16" role="button">
                   Create My Account
                 </Link>
-                <a className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15" href="/#" role="button">Terms & Conditions</a>
+                <Link className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15" href="/#" role="button">Terms & Conditions</Link>
               </div>
             </div>
           </form>

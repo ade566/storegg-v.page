@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Story() {
   return (
@@ -23,7 +24,7 @@ export default function Story() {
                 pemenang sejati
               </p>
               <div className="d-md-block d-flex flex-column w-100">
-                <a className="btn btn-read text-lg rounded-pill" href="/#" role="button">Read Story</a>
+                <Link className="btn btn-read text-lg rounded-pill" href="/#" role="button">Read Story</Link>
               </div>
             </div>
           </div>

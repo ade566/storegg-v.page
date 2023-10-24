@@ -1,4 +1,5 @@
 import cx from 'classnames';
+import Image from 'next/image';
 
 interface TrRowProps {
   image: string;
@@ -24,7 +25,7 @@ export default function TrRow(props: TrRowProps) {
   return (
     <tr className="align-middle">
       <th scope="row">
-        <img className="float-start me-3 mb-lg-0 mb-3" src={`/img/${image}`} width={80} height={60} alt="" />
+        <Image className="float-start me-3 mb-lg-0 mb-3" src={`/img/${image}`} width={80} height={60} alt="" />
         <div className="game-title-header">
           <p className="game-title fw-medium text-start color-palette-1 m-0">{title}</p>
           <p className="text-xs fw-normal text-start color-palette-2 m-0">{category}</p>

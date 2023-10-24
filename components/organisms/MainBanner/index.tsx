@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Illustrations from './illustrations';
 
 export default function MainBanner() {
@@ -27,7 +28,7 @@ export default function MainBanner() {
               <a className="btn btn-get text-lg text-white rounded-pill" href="#feature" role="button">
                 Get Started
               </a>
-              <a className="btn-learn text-lg color-palette-1 my-auto text-center" href="/#" role="button">Learn More</a>
+              <Link className="btn-learn text-lg color-palette-1 my-auto text-center" href="/#" role="button">Learn More</Link>
             </div>
           </div>
           <Illustrations />
