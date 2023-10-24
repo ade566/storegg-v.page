@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react';
+import { Meta, Story } from '@storybook/react';
 import GameItem, { GameItemProps } from '../../../../components/molcules/GameItem';
 
 export default {
@@ -6,7 +6,7 @@ export default {
   component: GameItem,
 } as Meta;
 
-const Template = (args: GameItemProps) => <GameItem {...args} />;
+const Template: Story<GameItemProps> = (args) => <GameItem {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
